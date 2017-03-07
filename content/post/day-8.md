@@ -1,0 +1,79 @@
+---
+date: "2017-03-06T07:40:40-06:00"
+featuredpath: ""
+descriptio0n: ""
+title: "Day 8"
+author: ""
+featuredalt: ""
+featured: ""
+linktitle: ""
+categories: [daily blog]
+
+---
+
+Started the day off with a win before 8 am. I was working on a lab to take an array and return a string with Oxford commas inserted. I finished the lab and had it passing tests the refactored and chopped two lines of code out of it. This made me happy.  
+Original code:
+```ruby
+def oxford_comma(array)
+  if array.length == 1
+    return "#{array[0]}"
+  elsif array.length == 2
+    return array.join(" and ")
+  elsif array.length >= 3
+    new_last_array_item = "and #{array[-1]}"
+    array.pop
+    array.push(new_last_array_item)
+    return array.join(", ")
+  end
+end
+```
+Refactored code:
+```ruby
+def oxford_comma(array)
+  if array.length == 1
+    return "#{array[0]}"
+  elsif array.length == 2
+    return array.join(" and ")
+  elsif array.length >= 3
+    array[-1] = "and #{array[-1]}"
+    return array.join(", ")
+  end
+end
+```
+Another refactoring win today while the kids were napping. I had the following to accomplish: "Write a method called `reverse_each_word` that takes in a string argument of a sentence and returns that same sentence with each word reversed in place."
+```ruby
+# FIRST METHOD THAT PASSED
+def reverse_each_word(array)
+  new_array = array.split(" ")
+  reversed_array = new_array.each {|x| x.reverse!}
+  return reversed_array.join(" ")
+end
+
+# FIRST REFACTORED CODE
+def reverse_each_word(array)
+  new_array = array.split(" ")
+  new_array.collect {|x| x.reverse!}
+  new_array.join(" ")
+end
+
+# FINAL SOLUTION
+def reverse_each_word(array)
+  array.split(" ").collect {|x| x.reverse!}.join(" ")
+end
+```
+I realized that I could chain the mehods together since I was calling them all on the same element. Then I also realized that it was going to return automatically from the method so I had no need for the return either. [Ruby-Doc][1] is quickly becoming one of my best friends while working on this Procedural Ruby section.
+
+Today was the day of Slack distraction. This can be seen by the number of lessons I completed. However, networking and connecting with other students is important to an extent as well. A few other students and I started down the rabbit hole of health and wellness and biohacking etc... I was able to share some of the things I do like my morning stretching from [Gymnastic Bodies][2], how I drink my coffee cocktail (coffee + grassfed ghee currently), and meditation utilizing [Calm][3]. Also how I diffuse essential oils in the office I study/code in and listen to [Brain.fm][4] while I code. How I have some [Four Sigmatic Lion's Mane Elixir][5] on the way from [Thrive Market][6] (because it's <$26 there) and some [Brain Boost][7] from Amazon.
+
+Time spent today: 3:17  
+Time spent total: 36:43  
+Lessons completed today: 9  
+Lessons completed total: 206
+
+  [1]:http://ruby-doc.org/
+  [2]:https://www.gymnasticbodies.com/
+  [3]:https://www.calm.com/
+  [4]:https://www.brain.fm
+  [5]:https://us.foursigmatic.com/collections/all-products/products/instant-lions-mane
+  [6]:http://thrv.me/seth
+  [7]:http://amzn.to/2mZGVPc
