@@ -1,0 +1,44 @@
+---
+date: "2017-03-07T22:15:38-06:00"
+featuredpath: ""
+descriptio0n: ""
+title: "Day 9"
+author: ""
+featuredalt: ""
+featured: ""
+linktitle: ""
+categories: [daily blog]
+
+---
+
+Today was a slow day. The kids didn't cooperate this morning and I got zero coding done before all three children were awake. That's fine though. I didn't expect every day to go perfectly to plan. It was actually a nice refresher day not starting with coding but still getting the rest of my morning routine done.
+
+I did get in my night time session (minus a few minutes for good night kisses). I had some more in depth labs today and learned a lot about [primality algorithms][1] when I had the challenge of coding a test to see if a number is prime without using the `Math` library.
+
+My code works but definitely is not something that would ever get put into production. It is not efficient, at all.
+```ruby
+def prime?(n)
+  if n <= 1
+    return false
+  elsif n <= 3
+    return true
+  else (2..n/2).none? do |x|
+    n % x == 0
+  end
+  end
+end
+```
+I could make it even more efficient by changing that `n/2` to the square root of `n` but I couldn't get that helper method working. In the end I would want to implement something like what I found online that states:
+
+> So a more efficient method is to test if `n` is divisible by 2 or 3, then to check through all the numbers of form ![math_formula](images/prime6k.svg). This is 3 times as fast as testing all `m`.
+
+`m` is what's happening right now in my solution.
+
+Luckily, I won't ever have to do that because `Math` is a library that I'll be using in real life. I kind of felt like I did in my college Finance class when the professor told us we had to memorize all the formulas even though she had zero memorized herself because her computer did everything for her at her day job.
+
+Time spent today: 1:44  
+Time spent total: 38:28  
+Lessons completed today: 3  
+Lessons completed total: 209
+
+  [1]:https://en.wikipedia.org/wiki/Primality_test

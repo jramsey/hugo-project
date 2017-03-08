@@ -11,7 +11,7 @@ categories: [daily blog]
 
 ---
 
-Started the day off with a win before 8 am. I was working on a lab to take an array and return a string with Oxford commas inserted. I finished the lab and had it passing tests the refactored and chopped two lines of code out of it. This made me happy.  
+Started the day off with a win before 8 am. I was working on a lab to take an array and return a string with Oxford commas inserted. I finished the lab and had it passing tests then refactored and chopped two lines of code out of it. This made me happy.  
 Original code:
 ```ruby
 def oxford_comma(array)
