@@ -7,7 +7,7 @@ featured: ""
 featuredalt: ""
 featuredpath: ""
 linktitle: ""
-title: Why Software Development
+title: Why Software Development?
 ---
 
 So as part of my bootcamp experience Flatiron School requires me to write blog posts. This is a feature that I don't think all bootcamps have but is smart. If I can write about coding then I show a deeper understanding about why I am a job ready developer. We all know that our online presence is part of our "resume" now as more and more hiring managers are looking at social profiles when making job decisions (even if it's a [legal slippery slope...][1]).
