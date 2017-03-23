@@ -5,7 +5,7 @@ theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 5
 disqusShortname = "my-flatiron-journey"
-googleAnalytics = ""
+googleAnalytics = "UA-96008952-1"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
