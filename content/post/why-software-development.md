@@ -28,14 +28,19 @@ So how could I make this career transition with a mortgage and 3 kids? In person
 
 So ultimately I decided on software development for a few reasons:
 
--  It genuinely interests me outside of doing it as a career.
--  The pay ain't bad.
--  More "normal" schedule so I'll be home for dinner, off on weekends and holidays.
--  The possibility of working remotely.
+-   It genuinely interests me outside of doing it as a career.
+-   The pay ain't bad.
+-   More "normal" schedule so I'll be home for dinner, off on weekends and holidays.
+-   The possibility of working remotely.
 
-  [1]:http://hiring.monster.com/hr/hr-best-practices/recruiting-hiring-advice/acquiring-job-candidates/social-media-recruiting-guidelines.aspx
-  [2]:https://medium.freecodecamp.com/bill-gates-and-elon-musk-just-warned-us-about-the-one-thing-politicians-are-too-scared-to-talk-8db9815fd398
-  [3]:https://www.freecodecamp.com
-  [4]:http://nashvillesoftwareschool.com/
-  [5]:https://www.theironyard.com/
-  [6]:https://flatironschool.com/programs/online-web-developer-career-course/
+    [1]&#x3A;<http://hiring.monster.com/hr/hr-best-practices/recruiting-hiring-advice/acquiring-job-candidates/social-media-recruiting-guidelines.aspx>
+
+    [2]&#x3A;<https://medium.freecodecamp.com/bill-gates-and-elon-musk-just-warned-us-about-the-one-thing-politicians-are-too-scared-to-talk-8db9815fd398>
+
+    [3]&#x3A;<https://www.freecodecamp.com>
+
+    [4]&#x3A;<http://nashvillesoftwareschool.com/>
+
+    [5]&#x3A;<https://www.theironyard.com/>
+
+    [6]&#x3A;<https://flatironschool.com/programs/online-web-developer-career-course/>
