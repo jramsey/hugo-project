@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 paginate = 5
 disqusShortname = "my-flatiron-journey"
 googleAnalytics = "UA-96008952-1"
+publishDir = "../itzsaga.github.io"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
