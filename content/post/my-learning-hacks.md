@@ -5,7 +5,7 @@ date: 2017-03-30T23:28:06-05:00
 description: ""
 featured: "rock-1920.jpg"
 featuredalt: ""
-featuredpath: "./images/"
+featuredpath: "../../images/"
 linktitle: ""
 title: My Learning Hacks
 ---
