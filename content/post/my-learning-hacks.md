@@ -20,6 +20,9 @@ When I'm on long coding sessions I supplement in the middle of the day with [Fou
 
 That should be it if I remember correctly. If I realize I missed something I'll update this post.
 
+**UPDATE 3/31/17**  
+I completely forgot about how I listen to [Brain.fm][14] whenever I'm doing work. It really zones me in more than anything I've ever listened to. I used to use Spotify playlists but now this is the ONLY thing I'll listen to when I need to concentrate.
+
   [1]:http://thrv.me/GWQK6N
   [2]:http://amzn.to/2nQOZoe
   [3]:http://thrv.me/pP3hDQ
@@ -33,3 +36,4 @@ That should be it if I remember correctly. If I realize I missed something I'll 
   [11]:http://thrv.me/RwiYBf
   [12]:http://thrv.me/evMTdr
   [13]:https://nootrobox.com/sprint
+  [14]:https://www.brain.fm
