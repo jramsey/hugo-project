@@ -8,9 +8,9 @@ disqusShortname = "my-flatiron-journey"
 googleAnalytics = "UA-96008952-1"
 publishDir = "../itzsaga.github.io"
 
-[outputs]
-    home = [ "HTML", "AMP", "RSS"]
-    page = [ "HTML", "AMP"]
+# [outputs]
+#     home = [ "HTML", "AMP", "RSS"]
+#     page = [ "HTML", "AMP"]
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
