@@ -21,6 +21,22 @@ Other resources that were mentioned were: [Eli the Computer Guy][11] and [The Co
 
 We also worked through the freeCodeCamp [Truncate a string][14] challenge together. I didn't think to save it at the time but we used Dave's computer so hopefully he has the solution locally on his machine still. If so I'll update with it.
 
+_UPDATE_ here's the code:
+
+```js
+function truncateString(str, num) {
+  if (str.length <= num) {
+    return str;
+  } else if (num <=3) {
+    return str.slice(0, num) + "...";
+  } else {
+    return str.slice(0, num - 3) + "...";
+  }
+}
+
+truncateString("A-tisket a-tasket A green and yellow basket", 11);
+```
+
 We had a good time and there were a few extended conversations after the we officially ended which I liked. I'm not a Sr. Dev and can't mentor people too much, _yet_. However, I really do enjoy seeing people connect with each other and the community we're slowly building around the central theme of people new to coding utilizing freeCodeCamp to learn.
 
   [1]:https://github.com/davi3blu3
