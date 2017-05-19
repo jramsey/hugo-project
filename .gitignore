@@ -36,3 +36,7 @@
 ehthumbs.db
 Thumbs.db
 "public" 
+
+# RubyMine files #
+##################
+.idea
