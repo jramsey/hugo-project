@@ -1,0 +1,42 @@
+BaseUrl= "https://itzsaga.github.io/"
+LanguageCode= "en-us"
+Title= "My Flatiron Journey"
+paginate = 5
+DisqusShortname = "my-flatiron-journey"
+Copyright = "All rights reserved - 2017"
+canonifyurls = true
+
+[params]
+  description = "My Flatiron School Journey"
+  metadescription = "From day 1 my journey to becoming a web developer via the Flatiron Online Web Developer boot camp."
+  cover = "images/cover.jpg"
+  author = "Seth Alexander"
+  authorlocation = "Nashville, TN, USA"
+  authorwebsite = "https://github.com/itzsaga"
+  bio= "I'm a family man that works hard and is looking to get ahead. I'm smart and love tech. That's all there is to it."
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-96008952-1"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "itzsaga"
+  twitterName = "itzsaga"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "solarized dark"
+
+  [params.social]
+    twitter = "itzsaga"
+
+[permalinks]
+post = "/:slug/"
+
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
