@@ -1,12 +1,6 @@
 ---
-author: ""
-categories: []
 date: 2017-06-26T21:45:54-05:00
-description: ""
-featured: ""
-featuredalt: ""
-featuredpath: ""
-linktitle: ""
 title: placeholder
 ---
 
+This is a placeholder so I can submit my final project and schedule my assessment. I will write something later.
