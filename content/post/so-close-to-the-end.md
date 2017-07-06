@@ -6,7 +6,7 @@ description: "Day 129 of Flatiron School"
 featured: "stairs.jpg"
 featuredalt: "stairs"
 featuredpath: "../../images/"
-title: Final Project Complete...
+title: So Close to the End
 ---
 
 It's been about 3 weeks since I last blogged. I put my head down and sprinted towards the finish line. I can't say that I'm 100% done, yet, but I will be soon. I have completed my final portfolio project and have my assessment for it tomorrow. I must say, [Redux][1] threw me for one while working on this project. I hit many stumbling blocks building this project. I think my sprint was alittle ambitious and I ended up not knowing the Redux stuff as in depth as I wanted to. I definitely created some of my own frustration because of this. However, I hacked away at it and got it. I watched YouTube videos, [Wes Bos's Redux Course][2], and I even used [HackHands][3] a couple times thanks to the [Github Education Student Developer Pack][4] $25 credit I received.
